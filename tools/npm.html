@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>npm 的使用 | 阮野的个人博客</title>
+    <meta name="description" content="宁愿累死自己,也要饿死同行">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.6114eb0d.css" as="style"><link rel="preload" href="/assets/js/app.94ad59a4.js" as="script"><link rel="preload" href="/assets/js/2.70f332ec.js" as="script"><link rel="preload" href="/assets/js/22.e7875333.js" as="script"><link rel="prefetch" href="/assets/js/10.bbc79fa3.js"><link rel="prefetch" href="/assets/js/11.7e222e82.js"><link rel="prefetch" href="/assets/js/12.b4c1ba87.js"><link rel="prefetch" href="/assets/js/13.71ea7112.js"><link rel="prefetch" href="/assets/js/14.311d529f.js"><link rel="prefetch" href="/assets/js/15.943046e5.js"><link rel="prefetch" href="/assets/js/16.0372b45c.js"><link rel="prefetch" href="/assets/js/17.95b5ebcf.js"><link rel="prefetch" href="/assets/js/18.5410b0a4.js"><link rel="prefetch" href="/assets/js/19.07754a9e.js"><link rel="prefetch" href="/assets/js/20.4b16f95b.js"><link rel="prefetch" href="/assets/js/21.411ba48d.js"><link rel="prefetch" href="/assets/js/23.49485b68.js"><link rel="prefetch" href="/assets/js/24.2bd45030.js"><link rel="prefetch" href="/assets/js/25.1ffda4b3.js"><link rel="prefetch" href="/assets/js/26.44e28e74.js"><link rel="prefetch" href="/assets/js/27.802c9889.js"><link rel="prefetch" href="/assets/js/28.2f87fa85.js"><link rel="prefetch" href="/assets/js/29.9f07230d.js"><link rel="prefetch" href="/assets/js/3.f732341c.js"><link rel="prefetch" href="/assets/js/30.bbb20ed9.js"><link rel="prefetch" href="/assets/js/31.32976d95.js"><link rel="prefetch" href="/assets/js/32.ea14bf59.js"><link rel="prefetch" href="/assets/js/33.ba67dd03.js"><link rel="prefetch" href="/assets/js/34.58a9c640.js"><link rel="prefetch" href="/assets/js/4.59116900.js"><link rel="prefetch" href="/assets/js/5.d9d48266.js"><link rel="prefetch" href="/assets/js/6.4e99524d.js"><link rel="prefetch" href="/assets/js/7.2222218b.js"><link rel="prefetch" href="/assets/js/8.078374ca.js"><link rel="prefetch" href="/assets/js/9.30926b13.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.6114eb0d.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">阮野的个人博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/vue/" class="nav-link">vue</a></div><div class="nav-item"><a href="/react/" class="nav-link">react</a></div><div class="nav-item"><a href="/es6/" class="nav-link">es6</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具" class="dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tools/npm.html" class="nav-link router-link-exact-active router-link-active">npm</a></li><li class="dropdown-item"><!----> <a href="/tools/" class="nav-link router-link-active">git</a></li><li class="dropdown-item"><!----> <a href="/tools/blog.html" class="nav-link">vuepress</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="js" class="dropdown-title"><span class="title">js</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/js/" class="nav-link">js基础</a></li><li class="dropdown-item"><!----> <a href="/jsg/" class="nav-link">js高级</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/vue/" class="nav-link">vue</a></div><div class="nav-item"><a href="/react/" class="nav-link">react</a></div><div class="nav-item"><a href="/es6/" class="nav-link">es6</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具" class="dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tools/npm.html" class="nav-link router-link-exact-active router-link-active">npm</a></li><li class="dropdown-item"><!----> <a href="/tools/" class="nav-link router-link-active">git</a></li><li class="dropdown-item"><!----> <a href="/tools/blog.html" class="nav-link">vuepress</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="js" class="dropdown-title"><span class="title">js</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/js/" class="nav-link">js基础</a></li><li class="dropdown-item"><!----> <a href="/jsg/" class="nav-link">js高级</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/" class="sidebar-link">Home</a></li><li><a href="/about.html" class="sidebar-link">关于我</a></li><li><a href="/tools/npm.html" class="active sidebar-link">npm 的使用</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/tools/npm.html#npm-基本使用" class="sidebar-link">npm 基本使用</a></li><li class="sidebar-sub-header"><a href="/tools/npm.html#使用-nrm-管理-npm" class="sidebar-link">使用 nrm 管理 npm</a></li></ul></li><li><a href="/tools/" class="sidebar-link">git sshkey</a></li><li><a href="/tools/blog.html" class="sidebar-link">vuepress 搭建个人博客</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="npm-的使用"><a href="#npm-的使用" class="header-anchor">#</a> npm 的使用</h1> <h2 id="npm-基本使用"><a href="#npm-基本使用" class="header-anchor">#</a> npm 基本使用</h2> <ol><li>切换淘宝源</li></ol> <div class="language-js extra-class"><pre class="language-js"><code>   npm <span class="token keyword">set</span> registry https<span class="token punctuation">:</span><span class="token operator">/</span><span class="token regex">/registry.npm.taobao.org/</span>
+</code></pre></div><ol start="2"><li>显示进度条</li></ol> <div class="language-js extra-class"><pre class="language-js"><code>  npm config <span class="token keyword">set</span> loglevel<span class="token operator">=</span>http
+</code></pre></div><ol start="3"><li>初始化和一键初始化</li></ol> <div class="language-js extra-class"><pre class="language-js"><code>  <span class="token operator">**</span>初始化<span class="token operator">**</span>
+  npm init  <span class="token comment">//初始化</span>
+  <span class="token keyword">package</span> name <span class="token punctuation">:</span> <span class="token comment">//项目名称（包名）</span>
+  version<span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token number">1.0</span><span class="token number">.0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>  <span class="token comment">//版本号</span>
+  description<span class="token punctuation">:</span> <span class="token comment">//简介，对项目进行简介</span>
+  entry point<span class="token punctuation">:</span> <span class="token comment">//入口文件的名字</span>
+  test command<span class="token punctuation">:</span> <span class="token comment">//测试命令</span>
+  git repository<span class="token punctuation">:</span> <span class="token comment">//git仓库地址</span>
+  keywords<span class="token punctuation">:</span> <span class="token comment">//关键词</span>
+  author<span class="token punctuation">:</span> <span class="token comment">//作者</span>
+  license<span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token constant">ISC</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token comment">//协议</span>
+  dependencies<span class="token punctuation">:</span>  <span class="token comment">//依赖</span>
+  devDependencies<span class="token punctuation">:</span> <span class="token comment">//开发依赖 </span>
+  <span class="token operator">**</span>一键初始化<span class="token operator">**</span>
+  npm init <span class="token operator">-</span>y 或者 yes <span class="token comment">// 直接生成 package.json</span>
+</code></pre></div><ol start="4"><li>更新和删除缓存</li></ol> <div class="language-js extra-class"><pre class="language-js"><code>   <span class="token comment">// 更新npm到最新版本</span>
+   npm install npm <span class="token operator">-</span>g
+   <span class="token comment">// 强制除缓存</span>
+   npm cache clear <span class="token operator">--</span>force
+   <span class="token comment">// 安装指定版本</span>
+   npm install 包名@版本号
+   npm install vue@<span class="token number">2.5</span><span class="token number">.1</span>
+</code></pre></div><ol start="5"><li>卸载</li></ol> <div class="language-js extra-class"><pre class="language-js"><code>   npm uninstall 模块：
+   <span class="token comment">//删除模块，但不删除模块留在 package.json 中的对应信息</span>
+   npm uninstall 模块 <span class="token operator">--</span>save
+   <span class="token comment">//删除模块，同时删除模块留在 package.json 中 dependencies 下的对应信息</span>
+   npm uninstall 模块 <span class="token operator">--</span>save<span class="token operator">-</span>dev
+   <span class="token comment">//删除模块，同时删除模块留在 package.json 中 devDependencies 下的对应信息</span>
+   例子：npm uninstall vue
+</code></pre></div><h2 id="使用-nrm-管理-npm"><a href="#使用-nrm-管理-npm" class="header-anchor">#</a> 使用 nrm 管理 npm</h2> <ol><li>下载</li></ol> <div class="language- extra-class"><pre class="language-text"><code>npm install nrm -g
+</code></pre></div><ol start="2"><li>查看 npm 仓库列表</li></ol> <div class="language- extra-class"><pre class="language-text"><code>nrm ls
+</code></pre></div><h4 id="结果如下"><a href="#结果如下" class="header-anchor">#</a> 结果如下</h4> <div class="language-js extra-class"><pre class="language-js"><code>  npm <span class="token operator">--</span><span class="token operator">--</span> https<span class="token punctuation">:</span><span class="token operator">/</span><span class="token regex">/registry.npmjs.org/</span>
+  cnpm <span class="token operator">--</span><span class="token operator">-</span> http<span class="token punctuation">:</span><span class="token operator">/</span><span class="token regex">/r.cnpmjs.org/</span>
+<span class="token operator">*</span> taobao <span class="token operator">-</span> https<span class="token punctuation">:</span><span class="token operator">/</span><span class="token regex">/registry.npm.taobao.org/</span>
+  nj <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">-</span> https<span class="token punctuation">:</span><span class="token operator">/</span><span class="token regex">/registry.nodejitsu.com/</span>
+  npmMirror  https<span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>skimdb<span class="token punctuation">.</span>npmjs<span class="token punctuation">.</span>com<span class="token operator">/</span>registry<span class="token operator">/</span>
+  edunpm <span class="token operator">-</span> http<span class="token punctuation">:</span><span class="token operator">/</span><span class="token regex">/registry.enpmjs.org/</span>
+</code></pre></div><ol start="3"><li>npm 仓库测速(需要等待 2-3 分钟)</li></ol> <div class="language- extra-class"><pre class="language-text"><code>nrm test
+</code></pre></div><h4 id="结果如下-2"><a href="#结果如下-2" class="header-anchor">#</a> 结果如下</h4> <div class="language- extra-class"><pre class="language-text"><code>  npm ---- 1505ms
+  cnpm --- 474ms
+* taobao - 745ms
+  nj ----- Fetch Error
+  npmMirror  22734ms
+  edunpm - Fetch Error
+</code></pre></div><ol start="4"><li>选择 npm 仓库</li></ol> <div class="language-js extra-class"><pre class="language-js"><code> <span class="token comment">//示例:比如最快的是taobao</span>
+ nrm use taobao
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/about.html" class="prev">关于我</a></span> <span class="next"><a href="/tools/" class="router-link-active">git sshkey</a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.94ad59a4.js" defer></script><script src="/assets/js/2.70f332ec.js" defer></script><script src="/assets/js/22.e7875333.js" defer></script>
+  </body>
+</html>
