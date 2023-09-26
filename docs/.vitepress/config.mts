@@ -13,11 +13,14 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'git',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'git 操作', link: '/git/1' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
+      },
+      {
+
       }
     ],
 
