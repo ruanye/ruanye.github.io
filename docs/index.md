@@ -3,15 +3,15 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "阮野的个人博客"
+  text: "前端开发"
+  tagline: 分享前端知识
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 点击查看
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: vue3.x
       link: /api-examples
 
 features:
