@@ -20,10 +20,12 @@ export default defineConfig({
         ]
       },
       {
-
+        text: '软件安装破解',
+        items: [
+          { text: ' navcat 无限试用', link: '/software/1' },
+        ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
